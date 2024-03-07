@@ -5,6 +5,7 @@ import './App.css';
 import { List } from './components';
 import { favoritesActions } from './store/favorites';
 
+
 function App() {
   const dispatch = useDispatch();
   const [items, setItems] = useState([]);
